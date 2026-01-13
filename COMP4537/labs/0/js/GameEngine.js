@@ -44,7 +44,7 @@ export class GameEngine{
             this.expectedIndex++;
 
             if(this.expectedIndex === this.manager.buttons.length){
-                alert(SER_MESSAGES.MSG_RIGHT);
+                alert(USER_MESSAGES.MSG_RIGHT);
                 this.manager.disableClicks();
             } 
         } else{
