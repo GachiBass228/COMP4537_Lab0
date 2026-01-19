@@ -1,3 +1,41 @@
 a {
   text-decoration: none;
 }
+ .note-display { 
+  width: 300px; 
+  background-color: #4a76c5; 
+  color: white; padding: 10px; 
+  margin-bottom: 10px; 
+  white-space: pre-wrap; 
+}
+#status { 
+  text-align: right;
+   margin: 10px; 
+   font-family: sans-serif;
+}
+
+textarea { 
+  display: block; 
+  width: 300px; 
+  height: 80px; 
+  background-color: #4a76c5; 
+  color: white; 
+  margin-bottom: 5px; 
+}
+
+.remove-btn { 
+  background-color: #e67e22; 
+  color: white; 
+  border: none; 
+  padding: 5px 10px; 
+  cursor: pointer; 
+  margin-bottom: 15px;
+}
+
+.add-btn { 
+  background-color: #62a146; 
+  color: white; 
+  border: none; 
+  padding: 10px 20px; 
+  cursor: pointer; 
+}
